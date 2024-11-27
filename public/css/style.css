@@ -4,7 +4,7 @@ body{
   font-size: 16px;
   text-align: center;
   align-items: center;
-  background-image: url('../pics/mean-bg.jpg');
+
 /*background-attachment: fixed;*/
 /*background-position: center;*/
 }
@@ -24,7 +24,7 @@ body{
     font: normal 18px sans-serif;
     padding: 45px;
     margin-top: 50px;
-    border-top: 5px solid red;
+    border-top: 5px solid black;
 }
 
 .footer .footer-motto {
@@ -54,25 +54,25 @@ body{
 }
 
 .panel-primary{
-  box-shadow: 0 0 30px red;
+  box-shadow: 0 0 30px rgb(0, 4, 255);
 }
 .panel-primary:hover{
-  box-shadow: 0 0 30px green;
+  box-shadow: 0 0 30px rgb(248, 248, 248);
 }
 
 
 .login-screen{
-  background-color: #cccccc;
+  background-color: #ffffff;
 
 }
 
 .login-box{
   margin: auto;
   margin-top: 3%;
-  width: 50%;
-  border: 2px solid cyan;
+  width: 40%;
+  border: 2px solid rgb(17, 0, 255);
   border-radius: 10px;
-  background-color: #19B5FE;
+  background-color: #0400ff;
 }
 
 
@@ -113,27 +113,22 @@ body{
   box-shadow: none;
 }
 
-.boxF{
-  display: inline-block;
-  margin: 5px;
-  border: 2px solid cyan;
-  font-weight: bold;
-}
+
 .boxF:hover{
-  border: 2px dotted red;
+  border: 2px solid rgb(0, 0, 0);
 }
 .boxN{
   padding: 15px;
   display: inline-block;
   margin: 5px;
-  border: 2px solid cyan;
+  border: 2px solid rgb(0, 0, 0);
   font-weight: bold;
-  background-color: #31B0D5;
+  background-color: #000000;
   color: white;
 
 }
 .boxN:hover {
-  border: 2px dotted red;
+  border: 2px solid rgb(0, 0, 0);
 
 }
 .boxFl{
@@ -209,7 +204,7 @@ p{
   margin-left: 10px;
 }
 
-#ik,#ik1,#ik2{color: #009900;}
+#ik,#ik1,#ik2{color: #1900fd;}
 #ir,#ir1,#ir2{color: #e60000;}
 
 #hell0{
